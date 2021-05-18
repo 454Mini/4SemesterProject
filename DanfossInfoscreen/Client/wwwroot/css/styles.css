@@ -1,0 +1,14 @@
+﻿:root {
+    --danfoss: 
+}
+
+
+
+
+
+#my-chart.line {
+    height: 200px;
+    max-width: 400px;
+    margin: 0 auto;
+    --labels-size: 3rem;
+}
