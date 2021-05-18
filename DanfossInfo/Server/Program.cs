@@ -18,11 +18,9 @@ namespace DanfossInfo.Server
 {
     public class Program
     {
-        public async Task Main(string[] args)
+        public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
-
-          
 
         }
 
