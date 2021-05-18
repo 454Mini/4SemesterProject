@@ -22,27 +22,7 @@ namespace DanfossInfo.Server
         {
             CreateHostBuilder(args).Build().Run();
 
-            //Blazorised:
-            var builder = WebAssemblyHostBuilder.CreateDefault(args);
-
-            builder.Services
-                .AddBlazorise(options =>
-                {
-                    options.ChangeTextOnKeyPress = true;
-                })
-                .AddBootstrapProviders()
-                .AddFontAwesomeIcons();
-
-            builder.Services.AddSingleton(new HttpClient
-            {
-                BaseAddress = new Uri(builder.HostEnvironment.BaseAddress)
-            });
-
-            builder.RootComponents.Add<App>("#app");
-
-            var host = builder.Build();
-
-            await host.RunAsync();
+          
 
         }
 
