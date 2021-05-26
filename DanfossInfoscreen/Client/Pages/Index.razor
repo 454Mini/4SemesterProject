@@ -1,9 +1,37 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
 
-Welcome to your new app.
+<div class="row d-flex">
+    <div>
+        <h1>Danfoss</h1>
+        <p>Scan QR koden, for at interagere med skærmen</p>
+    </div>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+
+</div>
+
+<div class="big-box row d-flex justify-content-center">
+    <div class="item-box">
+        <h2>Prediction og målt</h2>
+        <TemperatureVisualization></TemperatureVisualization>
+    </div>
+
+
+    <div class="item-box  justify-content-center">
+        <div class="col-12">
+            <h2>Temperatur prediction og faktisk</h2>
+        </div>
+
+        <div class="gray-box">
+            <h5>Predicted: <i>dato klokkeslet</i></h5>
+            <p>22&degC</p>
+        </div>
+
+        <div class="gray-box">
+            <h5>Faktisk:  <i>dato klokkeslet</i></h5>
+            <p>22&degC</p>
+        </div>
+    </div>
+</div>
 
 
