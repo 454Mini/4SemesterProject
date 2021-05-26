@@ -1,0 +1,12 @@
+﻿:root {
+    --red-danfoss: #ed1c24;
+    --red-danfoss-50: rgba(237, 28, 36, .5);
+    --gray1: #484848;
+    --gray2: #303030;
+    --whiteOpa50: rgba(255, 255, 255, .5);
+    --white1: #f1f1f1;
+    --cyanAI: #00B1D5;
+    --yellowAI: rgba(228,214,37,1);
+    --pinkAI: #C30078;
+    
+}
