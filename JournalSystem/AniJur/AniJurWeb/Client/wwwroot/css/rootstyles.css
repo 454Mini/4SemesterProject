@@ -1,0 +1,13 @@
+﻿:root {
+    --headerbg: #6a736f;
+    --a-color: black;
+    --hover: #f2798f;
+    --blue_box: #325573;
+    --green_ani: #6a736f;
+    --rosa_dark: #bf657d;
+    --rosa_light: #f2798f;
+    --red_danfoss: #ed1c24;
+    --gray1: #cbcfd1;
+    --gray2: #f8f9fa;
+    --white_50: rgba(255, 255, 255, .5);
+}

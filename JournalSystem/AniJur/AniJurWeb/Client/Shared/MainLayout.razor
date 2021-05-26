@@ -1,0 +1,47 @@
+﻿@inherits LayoutComponentBase
+<header>
+    <nav class="navbar nav">
+        <a class="navbar-brand" href="#">
+            <div class="d-flex">
+                <div class="dog-logo-svg mr-3">
+                </div>
+                <div class="mt-2">
+                    <h3>Animal Journal</h3>
+                </div>
+            </div>
+        </a>
+        <label for="navtoggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+        <ul>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    @Profile
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Profil</a>
+                    <a class="dropdown-item" href="#">Log af</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<NavSecond></NavSecond>
+
+<div class="container">
+
+    <div class="content px-4">
+
+        @Body
+
+
+    </div>
+</div>
+
+
+@code{
+
+    string Profile = "Andersine And";
+}
