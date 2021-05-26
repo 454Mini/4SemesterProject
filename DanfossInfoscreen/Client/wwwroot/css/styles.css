@@ -1,0 +1,103 @@
+﻿@import "rootcolors.css";
+:root {
+    --red-danfoss: #ed1c24;
+    --red-danfoss-50: rgba(237, 28, 36, .5);
+    --gray1: #484848;
+    --gray2: rgba(48, 48, 48, .5);
+    --whiteOpa50: rgba(255, 255, 255, .5);
+    --white1: #f1f1f1;
+    --cyanAI: #00B1D5;
+    --yellowAI: rgba(228,214,37,1);
+    --pinkAI: #C30078;
+    --gray2-gradient: linear-gradient(1deg, rgba(48,48,48,0) 0%, rgba(48,48,48,.8) 100%);
+    --blue-bg-for-gradient: rgb(0,24,29);
+    --blue-gradient: linear-gradient(1deg, rgba(0,24,29,0) 0%, rgba(0,106,128,.5) 40%, rgba(0,177,213,.6) 100%)
+}
+﻿
+/*Chart*/
+
+/*#my-chart.line {
+    height: 10px;
+    width: 500px;
+    margin: 0 auto;
+    --labels-size: 3rem;
+    
+}
+
+#my-chart.column {
+    height: 200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#my-chart.area {
+    height: 200px;
+    max-width: 400px;
+    margin: 0 auto
+}
+*/
+
+
+
+/*Styling*/
+.big-box {
+    background: var(--blue-bg-for-gradient);
+    background: var(--blue-gradient);
+    border-radius: 30px;
+    padding:4vh 2vh 2vh 2vh;
+    min-height: 100vh;
+}
+
+
+.item-box {
+    background: rgb(0,24,29);
+    background: linear-gradient(1deg, rgba(0,24,29,0) 0%, rgba(0,106,128,.5) 40%, rgba(0,177,213,.6) 100%);
+    border-radius: 30px;
+    min-height: 30vh;
+    padding: 30px 20px 50px 20px;
+    margin: 2vh;
+}
+
+div.item-box h1, div.item-box p, div.item-box h2 {
+    color: var(--white1);
+}
+
+.red-box {
+    background: rgba(237, 28, 36, .6);
+    border-radius: 30px;
+    min-height: 30vh;
+    padding: 30px 20px 50px 20px;
+    margin: 2vh;
+  
+}
+
+.myFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+div.red-box h1, div.red-box h2, div.red-box p {
+    color: var(--white1);
+}
+
+.gray-box {
+   /* background: var(--gray2);*/
+    background: var(--gray2-gradient);
+    border-radius: 30px;
+    padding: 30px 20px 50px 20px;
+    margin: 2vh;
+    text-align: center;
+    min-width: 35vh;
+}
+
+div.gray-box p {
+    color: var(--yellowAI);
+    font-size: 3em;
+}
+
+div.gray-box h5 {
+    color: var(--white1);
+}
